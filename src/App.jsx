@@ -11,6 +11,7 @@ function App() {
     <BrowserRouter>
       <div className=".employee-management-app">
         <HeaderComponent />
+
         <main className="main-content">
           <Routes>
             <Route path="/" element={<ListEmployeeComponent />} />
